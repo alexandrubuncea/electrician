@@ -219,17 +219,17 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-4 md:flex-row md:gap-8">
               <div className="flex flex-row gap-2 py-2">
-                <PhoneIcon className="h6 w-6 text-blue-500" />
+                <PhoneIcon className="h6 w-6 text-blue-600" />
                 <a href="tel:0732843299">
-                  <p className="cursor-pointer whitespace-nowrap text-lg font-medium text-blue-500 hover:text-blue-600 hover:underline">
+                  <p className="cursor-pointer whitespace-nowrap text-lg font-medium text-blue-600 hover:text-blue-700 hover:underline">
                     0732 843 299
                   </p>
                 </a>
               </div>
               <div className="flex flex-row gap-2 py-2">
-                <EnvelopeIcon className="h6 w-6 text-blue-500" />
+                <EnvelopeIcon className="h6 w-6 text-blue-600" />
                 <a href="mailto:voicu.electriciananre@gmail.com">
-                  <p className="cursor-pointer whitespace-nowrap text-lg font-medium text-blue-500  hover:text-blue-600 hover:underline">
+                  <p className="cursor-pointer whitespace-nowrap text-lg font-medium text-blue-600  hover:text-blue-700 hover:underline">
                     voicu.electriciananre@gmail.com
                   </p>
                 </a>

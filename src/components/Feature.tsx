@@ -19,7 +19,7 @@ const Feature: React.FC<FeatureProps> = ({
         {icon}
       </div>
       <div className="flex flex-col gap-1">
-        <h3 className="text-base font-semibold text-blue-500 underline  group-hover:text-blue-600 group-hover:no-underline">
+        <h3 className="text-base font-semibold text-blue-600 underline  group-hover:text-blue-700 group-hover:no-underline">
           {title}
         </h3>
         <p className="font-regular text-base text-neutral-700 group-hover:text-neutral-900">
