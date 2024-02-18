@@ -19,7 +19,7 @@ const Hero: FC<HeroProps> = ({
   return (
     <div className="relative flex max-h-[560px] items-center justify-between gap-14 rounded-xl ">
       <div className="flex max-w-[560px] flex-col gap-4 ">
-        <h1 className="text-3xl font-semibold text-neutral-900 lg:text-5xl">
+        <h1 className=" text-3xl font-semibold text-neutral-900 lg:text-5xl">
           {title}
         </h1>
         <p className="font-regular text-base text-neutral-700">{subtitle}</p>

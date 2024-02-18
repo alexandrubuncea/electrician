@@ -214,7 +214,7 @@ export default function Home() {
             className="flex flex-col gap-4 bg-neutral-50 p-6 sm:rounded-lg sm:p-14"
           >
             <div className="flex flex-col gap-1">
-              <h3 className="text-4xl">Contact</h3>
+              <h3 className="text-3xl lg:text-4xl">Contact</h3>
               <p>Contacteaza-ma la numarul de telefon sau pe email.</p>
             </div>
             <div className="flex flex-col gap-4 md:flex-row md:gap-8">

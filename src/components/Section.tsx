@@ -39,7 +39,9 @@ const Section: React.FC<SectionProps> = ({
             {badge}
           </div>
         )}
-        <h2 className="text-4xl font-semibold text-neutral-900">{title}</h2>
+        <h2 className="text-3xl font-semibold text-neutral-900 lg:text-4xl">
+          {title}
+        </h2>
         <div className="font-regular flex flex-col gap-2 text-base text-neutral-700">
           {children}
         </div>
