@@ -1,26 +1,27 @@
-import Image from 'next/image';
+// Modules
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
-import InfoTop from '@/components/InfoTop';
-import NavBar from '@/components/NavBar';
-import Feature from '@/components/Feature';
+
+// Components
+import { Hero, InfoTop, NavBar, Feature, Stats, Section } from '@/components';
+
+// Icons
 import {
   BoltIcon,
   WrenchScrewdriverIcon,
   SunIcon,
   DevicePhoneMobileIcon,
+  PhoneIcon,
+  EnvelopeIcon,
 } from '@heroicons/react/24/solid';
-import Stats from '@/components/Stats';
-import { PhoneIcon } from '@heroicons/react/24/solid';
-import { EnvelopeIcon } from '@heroicons/react/24/solid';
-import Section from '@/components/Section';
+
+// Images
 import aboutMeImg from '../img/about-me.jpg';
 import fotovoltaiceImg from '../img/fotovoltaice.jpg';
 import prizePamantImg from '../img/priza-pamant.jpg';
 import knxImg from '../img/knx.jpg';
 import heroImg from '../img/hero.jpg';
 import instalatiiImg from '../img/instalatii.jpg';
-import Hero from '@/components/Hero';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -89,8 +90,8 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 gap-6 rounded-xl bg-neutral-50 px-6 py-8 md:grid-cols-3 md:gap-14">
             <Stats number="30" label="Ani experienta" />
-            <Stats number="1000" label="Proiecte terminate" />
-            <Stats number="1500" label="Clienti fericiti" />
+            <Stats number="1000" label="Clienti fericiti" />
+            <Stats number="1500" label="Proiecte terminate" />
           </div>
           <Section
             imgSrc={aboutMeImg.src}
@@ -103,8 +104,8 @@ export default function Home() {
               cu o experiență vastă de peste 30 de ani în domeniul electric.
             </p>
             <p>
-              Dețin autorizație ANRE, o calificare în Instalarea Sistemelor
-              Fotovoltaice Solare si Certificat instalator Huawei profesionist.
+              Dețin autorizație ANRE si o calificare în Instalarea Sistemelor
+              Fotovoltaice Solare.
             </p>
             <p>
               Portofoliul meu este diversificat și include realizarea
